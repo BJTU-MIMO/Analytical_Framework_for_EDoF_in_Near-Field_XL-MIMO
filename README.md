@@ -6,7 +6,7 @@ Z. Wang, J. Zhang, W. Yi, H. Xiao, H. Du, D. Niyato, B. Ai, and D. W. K. Ng, "An
 
 
 
-Available at: https://arxiv.org/abs/2110.04962
+Available at: https://arxiv.org/abs/2401.15280
 
 The package contains a simulation environment, based on Matlab, that reproduces the numerical results in the article. *We encourage you to also perform reproducible research!*
 
