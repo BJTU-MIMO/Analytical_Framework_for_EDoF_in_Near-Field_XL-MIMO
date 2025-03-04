@@ -11,7 +11,7 @@ Available at: https://arxiv.org/abs/2401.15280
 The package contains a simulation environment, based on Matlab, that reproduces the numerical results in the article. *We encourage you to also perform reproducible research!*
 
 ## Abstract of Article
-In this paper, we investigate a cell-free massive MIMO system with both access points (APs) and user equipments (UEs) equipped with multiple antennas over jointly-correlated Rayleigh fading channels. We study four uplink implementations, from fully centralized processing to fully distributed processing, and derive their achievable spectral efficiency (SE) expressions with minimum mean-squared error successive interference cancellation (MMSE-SIC) detectors and arbitrary combining schemes. Furthermore, the global and local MMSE combining schemes are derived based on full and local channel state information (CSI) obtained under pilot contamination, which can maximize the achievable SE for the fully centralized and distributed implementation, respectively. We study a two-layer decoding implementation with an arbitrary combining scheme in the first layer and optimal large-scale fading decoding (LSFD) in the second layer. Besides, we compute novel closed-form SE expressions for the two-layer decoding implementation with maximum ratio (MR) combining. In the numerical results, we compare the SE performance for different implementation levels, combining schemes, and channel models. It is important to note that increasing the number of antennas per UE may degrade the SE performance.
+Extremely large-scale multiple-input-multiple-output (XL-MIMO) is an emerging transceiver technology for enabling next-generation communication systems, due to its potential for substantial enhancement in both the spectral efficiency and spatial resolution. However, the achievable performance limits of various promising XL-MIMO configurations have yet to be fully evaluated, compared, and discussed. In this paper, we develop an effective degrees of freedom (EDoF) performance analysis framework specifically tailored for near-field XL-MIMO systems. We explore five representative distinct XL-MIMO hardware designs, including uniform planar array (UPA)-based with infinitely thin dipoles, two-dimensional (2D) continuous aperture (CAP) plane-based, UPA-based with patch antennas, uniform linear array (ULA)-based, and one-dimensional (1D) CAP line segment-based XL-MIMO systems. Our analysis encompasses two near-field channel models: the scalar and dyadic Green's function-based channel models. More importantly, when applying the scalar Green's function-based channel, we derive EDoF expressions in the closed-form, characterizing the impacts of the physical size of the transceiver, the transmitting distance, and the carrier frequency. In our numerical results, we evaluate and compare the EDoF performance across all examined XL-MIMO designs, confirming the accuracy of our proposed closed-form expressions. Furthermore, we observe that with an increasing number of antennas, the EDoF performance for both UPA-based and ULA-based systems approaches that of 2D CAP plane and 1D CAP line segment-based systems, respectively. Moreover, we unveil that the EDoF performance for near-field XL-MIMO systems is predominantly determined by the array aperture size rather than the sheer number of antennas. 
 
 ## Content of Code Package
 
@@ -23,14 +23,13 @@ The package includes the source codes applied in this paper.
 This code package is licensed under the GPLv2 license. If you in any way use this code for research that results in publications, please cite our original article:
 
 ```
-@ARTICLE{04962,
-author={Wang, Zhe and Zhang, Jiayi and Ai, Bo and Yuen, Chau and Debbah, Merouane},
-journal={IEEE Trans. Wireless Commun.},
-title={Uplink Performance of Cell-Free Massive {MIMO} With Multi-Antenna Users Over Jointly-Correlated {R}ayleigh Fading Channels},
-year={2022},
-month = {Sep.},
-volume={21},
-number={9},
-pages={7391-7406},
-doi={10.1109/TWC.2022.3158353}}
+@ARTICLE{10856805,
+  author={Wang, Zhe and Zhang, Jiayi and Yi, Wenhui and Xiao, Huahua and Du, Hongyang and Niyato, Dusit and Ai, Bo and Ng, Derrick Wing Kwan},
+  journal={IEEE Trans. Wireless Commun.}, 
+  title={Analytical Framework for Effective Degrees of Freedom in Near-Field XL-MIMO}, 
+  year={2025},
+  month={to appear,},
+  volume={},
+  number={},
+  pages={1-1}}
 ```
