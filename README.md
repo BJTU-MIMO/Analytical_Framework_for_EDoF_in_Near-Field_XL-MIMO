@@ -4,8 +4,6 @@ This is a code package is related to the following scientific article:
 
 Z. Wang, J. Zhang, W. Yi, H. Xiao, H. Du, D. Niyato, B. Ai, and D. W. K. Ng, "Analytical Framework for Effective Degrees of Freedom in Near-Field XL-MIMO," in IEEE Transactions on Wireless Communications, to appear, 2025.
 
-
-
 Available at: https://arxiv.org/abs/2401.15280
 
 The package contains a simulation environment, based on Matlab, that reproduces the numerical results in the article. *We encourage you to also perform reproducible research!*
